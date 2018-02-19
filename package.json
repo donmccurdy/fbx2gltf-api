@@ -7,7 +7,7 @@
     "start": "NODE_ENV=production node server.js",
     "dev": "nodemon server.js",
     "clean": "rm -rf data/tasks/task-*",
-    "deploy": "now --docker && now alias"
+    "deploy": "now --docker --name fbx2gltf"
   },
   "author": "Don McCurdy <dm@donmccurdy.com>",
   "license": "MIT",
